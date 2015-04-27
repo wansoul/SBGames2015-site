@@ -1,0 +1,34 @@
+<!-- Call for papers -->
+<div class="section-top-margin"></div>
+<section id="cfp" class="section appear clearfix sectionTopMargin">
+	<div class="container" ng-controller="AtividadesController as atv">
+		<div class="row mar-bot40">
+			<div class="col-md-offset-3 col-md-6">
+				<div class="section-header">
+					<h2 class="section-heading animated" data-animation="bounceInUp">Atividades</h2>
+					<p>Chamada de trabalhos</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mar-bot40" >
+			<div class="col-md-12">
+				<ul class="nav nav-pills">
+					<li role="presentation" ng-class="{selected: atv.selected == 'tutoriais'}">
+						<a href="#atividades/tutoriais"><i class="fa fa-wrench fa-2x mar-right10"></i>Tutoriais</a></li>
+					<li role="presentation" ng-class="{selected: atv.selected == 'mostraarte'}">
+						<a href="#atividades/mostraarte"><i class="fa fa-image fa-2x mar-right10"></i>Mostra de Arte</a></li>
+					<li role="presentation" ng-class="{selected: atv.selected == 'festivaljogos'}">
+						<a href="#atividades/festivaljogos"><i class="fa fa-gamepad fa-2x mar-right10"></i>Festival de Jogos</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10">
+				{{ atv.selected }}
+			</div>
+		</div>
+
+	</div>
+</section>

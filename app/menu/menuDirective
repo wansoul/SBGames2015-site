@@ -1,0 +1,8 @@
+angular.module('sbgamesApp')
+	.directive("menu", function() {
+		return {
+			restrict: "E",
+			replace: true,
+			templateUrl: "widget.html"
+		};
+	});

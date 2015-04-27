@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" ng-app="sbgamesApp"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SBGames 2015</title>
+        <meta name="description" content="XIV Simpósio Brasileiro de Jogos e Entretenimento Digital">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="wansoul">
+		<meta name="keywords" content="SBGames 2015, Simposio Brasileiro de Jogos e Entretenimento Digital, Comissão Especial de Jogos e Entretenimento Digital, Sociedade Brasileira de Computação, jogos, games, desenvolvimento de jogos, arte e design, artigos computacao, jogos e cultura, computação gráfica, brasil">
+		<meta name="rating" content="general">
+		<meta name="robots" content="index, follow">
+
+<!--	
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+-->
+
+		<!-- STYLE -->
+		<link rel="stylesheet" href="style/bootstrap.css">
+		<link rel="stylesheet" href="style/bootstrap-theme.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="css/default.css">
+		
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="favicons/favicon-194x194.png" sizes="194x194">
+		<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="favicons/manifest.json">
+		<meta name="msapplication-TileColor" content="#e2eaf5">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+    </head>
+	 
+    <body ng-controller="MainController">
+		<section id="header" class="appear">
+			<div class="navbar navbar-fixed-top noselect" role="navigation" > 
+				 <div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="fa fa-bars color-white"></span>
+						</button>
+						<h1><a class="navbar-brand" href="#inicio" >
+							<img src="img/SBGames-logo-top.png">
+						</a></h1>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav mar-top10" >
+							<!-- <li class="active"><a href="#inicio">Início</a></li> -->
+
+							<li class="dropdown" ng-class="{active: currentPage == 'callforpapers'}">
+					          <a class="dropdown-toggle" data-toggle="dropdown" role="link" aria-expanded="false">Call For Papers<span class="caret"></span></a>
+					          <ul class="dropdown-menu" role="menu">
+					            <li ng-class="{active: currentSubPage == 'artedesign'}"><a href="#callforpapers/artedesign">Arte e Design</a></li>
+					            <li ng-class="{active: currentSubPage == 'computacao'}"><a href="#callforpapers/computacao">Computação</a></li>
+					            <li ng-class="{active: currentSubPage == 'cultura'}"><a href="#callforpapers/cultura">Cultura</a></li>
+					            <li ng-class="{active: currentSubPage == 'industria'}"><a href="#callforpapers/industria">Indústria</a></li>
+					            <li ng-class="{active: currentSubPage == 'tutoriais'}"><a href="#callforpapers/tutoriais">Tutoriais</a></li>
+					            <li ng-class="{active: currentSubPage == 'mostraarte'}"><a href="#callforpapers/mostraarte">Mostra de Arte</a></li>
+					            <li class="divider"></li>
+					            <li ng-class="{active: currentSubPage == 'submissoes'}"><a href="#submissoes">Submissões</a></li>
+					          </ul>
+					        </li>
+
+							<li ng-class="{active: currentPage == 'submissoes'}"><a href="#submissoes">Submissões</a></li>
+							<li ng-class="{active: currentPage == 'organizacao'}"><a href="#organizacao">Organização</a></li>
+							<li ng-class="{active: currentPage == 'local'}"><a href="#local">Local</a></li>
+							<li ng-class="{active: currentPage == 'contato'}"><a href="#contato">Contato</a></li>
+							<li><button type="button" class="btn botao-inscricao navbar-btn">Inscreva-se</button></li>
+						</ul>
+					</div><!--/.navbar-collapse -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Logo e chamada -->
+	<section id="inicio" class="featured appear noselect {{ currentPage == 'home' ? 'ng-show' : 'ng-hide' }}">
+		<div class="container" > 
+			<div class="row mar-bot30">
+				<div class="col-md-6 col-md-offset-3">
+					
+					<div class="align-center">
+						<img class="featured-logo" src="img/SBGames-logo-dark.png" />
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<div ng-view></div>
+
+
+		<section id="patrocinio" class="section clearfix bg-white">
+			<div class="container">
+				<div class="row mar-bot40">
+					<div class="col-lg-4">
+						<h4 class="section-heading animated" data-animation="bounceInUp">Apoio</h4>
+						<div class="col-md-6">
+							<figure class="logotipo"><img src="img/parceiros/apoio/sebrae.png" alt="" /></figure>
+						</div>
+						<div class="col-md-6">
+							<figure class="logotipo"><img src="img/parceiros/apoio/prefeitura.png" alt="" /></figure>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h4 class="section-heading animated" data-animation="bounceInUp">Promoção</h4>
+						<div class="col-md-6">
+							<figure class="logotipo"><img src="img/parceiros/promocao/sbc.png" alt="" /></figure>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4 class="section-heading animated" data-animation="bounceInUp">Realização</h4>
+						<div class="col-lg-6">
+							<figure class="logotipo"><img src="img/parceiros/realizacao/ifpi.png" alt="" /></figure>
+						</div>
+						<div class="col-md-6">
+							<figure class="logotipo"><img src="img/parceiros/realizacao/ufpi.png" alt="" /></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="footer" class="section footer">
+			<div class="container">
+				<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+					<div class="col-sm-12 align-center">
+	                    <ul class="social-network social-circle">
+	                        <li><a href="https://www.facebook.com/SBGames" class="icoFacebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	                        <li><a href="https://twitter.com/sb_games" class="icoTwitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+	                    </ul>				
+					</div>
+				</div>
+				<div class="row align-center copyright">
+					<!-- <div class="col-sm-12"><p>Copyright &copy; 2014 Amoeba - by <a href="http://bootstraptaste.com">Bootstraptaste</a></p></div> -->
+				</div>
+			</div>
+		</section>
+
+		<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+<!--	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.isotope.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+		<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+		<script src="libs/jquery.appear.js"></script>
+		
+-->
+		<!-- LIBs -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+		<script src="libs/jquery.js"></script>
+		<script src="libs/bootstrap.js"></script>
+
+		<script src="libs/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="libs/skrollr.min.js"></script>
+		<script src="libs/stellar.js"></script>
+
+		<script src="libs/angular/angular.min.js"></script>
+	    <script src="libs/angular/angular-route.js"></script>
+
+		<!-- JSs -->
+		<script src="js/main.js"></script>
+
+	    <!-- APP -->
+	    <script src="app/app.js"></script>
+	    <script src="app/mainController.js"></script>
+	    <script src="app/utils/utilsService.js"></script>
+	    <script src="app/index/indexController.js"></script>
+	    <script src="app/cfp/cfpController.js"></script>
+
+
+	</body>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-38961707-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</html>
