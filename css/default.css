@@ -7,6 +7,7 @@ a {
 }
 a:hover {
 	color: #C66051;
+	font-weight: 600;
 }
 
 /* menu */

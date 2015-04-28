@@ -3,5 +3,6 @@ angular.module('sbgamesApp')
 		function IndexController($rootScope, UtilsService){
 			'use strict';
 			UtilsService.resetScroll();
-			$rootScope.currentPage = "home";
+			$rootScope.currentPage = "inicio";
+			$rootScope.currentSubPage = "";
 		});

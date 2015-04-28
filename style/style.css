@@ -454,6 +454,7 @@ h1 a.navbar-brand {
 
 .navbar-nav > li > .dropdown-menu > li > a{
 	color: #ccc;
+	text-align: left;
 }
 .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-nav > li > .dropdown-menu > li.active > a{
@@ -1106,7 +1107,12 @@ Media queries
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 	.navbar-nav {
-		margin-top: 20px;
+		margin-top: 15px;
+	}
+
+	.navbar-nav > li > a{
+		font-size: 10px;
+		padding: 12px 8px;
 	}
 }
 @media (max-width: 767px) {
@@ -1114,14 +1120,14 @@ Media queries
 	.navbar-collapse.in {
 		width: 100%;
 		margin-top: 0;
-		overflow-y: hidden;
+		overflow-y: scroll;
 	}
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,0.90);
+		background-color:rgba(0,0,0,0.95);
 	}
 	.navbar .navbar-collapse ul.nav {
-		background-color: rgba(0,0,0,0.9);
+		background-color: rgba(0,0,0,0.95);
 		width: 100%;
 		float: none;
 		margin:0;
@@ -1129,7 +1135,7 @@ Media queries
 		border-bottom: 1px solid #333;
 	}
 	.navbar .navbar-collapse ul.nav li {
-		border-bottom: 1px solid #333;
+		border-bottom: 1px solid rgba(100,100,100,0.3);	
 	}
 	section.featured {
 		padding-top: 140px;
@@ -1153,6 +1159,7 @@ Media queries
 		line-height: 40px;
 		width: 100%;
 		display: block;
+		text-align: left;
 	}
 
 	.navbar-header{
@@ -1162,6 +1169,13 @@ Media queries
 
 	.map, .hotel-foto { 
 		height: 320px; 
+	}
+
+	.navbar-nav .open .dropdown-menu > li:last-child {
+		border-bottom: none;
+	}
+	.navbar-nav .open .dropdown-menu > li > a{
+		line-height: 240%;
 	}
 
 }
@@ -1204,7 +1218,7 @@ Media queries
 	color: #fff;
 }
 
-.section-top-margin{ margin-top: 50px; }
+.section-top-margin{ margin-top: 30px; }
 
 
 .dropdown-toggle{
@@ -1224,3 +1238,9 @@ Media queries
 	color: #C66051;
 	border: 1px solid #C66051;
 }
+
+.spinner{
+	display: block;
+	margin: 40px auto;
+}
+
