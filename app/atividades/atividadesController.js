@@ -5,5 +5,5 @@ angular.module('sbgamesApp')
 			this.selected = $routeParams.id;
 			$rootScope.currentPage = "atividades";
 			$rootScope.currentSubPage = $routeParams.id;
-			UtilsService.resetScroll(); 
+			UtilsService.resetScroll();
 		});

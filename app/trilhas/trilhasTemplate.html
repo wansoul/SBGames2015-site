@@ -2,10 +2,9 @@
 <div class="section-top-margin"></div>
 <section id="trilhas" class="section appear clearfix sectionTopMargin">
 	<div class="container" ng-controller="TrilhasController as trilhas">
-		<div class="row mar-bot40">
+		<div class="row mar-bot20">
 			<div class="col-md-12">
 					<h2 class="section-heading animated" data-animation="bounceInUp">Trilhas</h2>
-					<p>Chamada de trabalhos</p>
 			</div>
 		</div>
 
@@ -23,12 +22,11 @@
 				</ul>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				{{ trilhas.selected }}
-			</div>
-		</div>
+        
+        <trilha-arte-e-design ng-show="{{ trilhas.selected == 'arte-e-design' }}"></trilha-arte-e-design>
+        <trilha-computacao ng-show="{{ trilhas.selected == 'computacao' }}"></trilha-computacao>
+        <trilha-cultura ng-show="{{ trilhas.selected == 'cultura' }}"></trilha-cultura>
+        <trilha-industria ng-show="{{ trilhas.selected == 'industria' }}"></trilha-industria>
 
 	</div>
 </section>

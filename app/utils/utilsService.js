@@ -9,4 +9,12 @@ angular.module('sbgamesApp')
 			};
 		}
 
+		/*this.setLinks = function(page, subpage, $rootScope){
+			'use strict';
+			$rootScope.currentPage = page; 
+			$rootScope.currentSubPage = subpage;
+			this.resetScroll(); 
+			console.log('setLinks -> '+ page +' - '+subpage);
+		};*/
+
 	});

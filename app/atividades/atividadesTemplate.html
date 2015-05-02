@@ -2,10 +2,9 @@
 <div class="section-top-margin"></div>
 <section id="atividades" class="section appear clearfix sectionTopMargin">
 	<div class="container" ng-controller="AtividadesController as atv">
-		<div class="row mar-bot40">
+		<div class="row mar-bot20">
 			<div class="col-md-12">
 					<h2 class="section-heading animated" data-animation="bounceInUp">Atividades</h2>
-					<p>Chamada de trabalhos</p>
 			</div>
 		</div>
 
@@ -22,11 +21,9 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				{{ atv.selected }}
-			</div>
-		</div>
+		<atividade-tutoriais ng-show="{{ atv.selected == 'tutoriais' }}"></atividade-tutoriais>
+		<atividade-mostra-de-artes ng-show="{{ atv.selected == 'mostra-de-artes' }}"></atividade-mostra-de-artes>
+		<atividade-festival-de-jogos ng-show="{{ atv.selected == 'festival-de-jogos' }}"></atividade-festival-de-jogos>
 
 	</div>
 </section>
