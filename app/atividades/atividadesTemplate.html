@@ -13,8 +13,8 @@
 				<ul class="nav nav-pills">
 					<li role="presentation" ng-class="{selected: atv.selected == 'tutoriais'}">
 						<a href="#atividades/tutoriais"><i class="fa fa-wrench fa-2x mar-right10"></i>Tutoriais</a></li>
-					<li role="presentation" ng-class="{selected: atv.selected == 'mostra-de-artes'}">
-						<a href="#atividades/mostra-de-artes"><i class="fa fa-image fa-2x mar-right10"></i>Mostra de Artes</a></li>
+				<!-- 	<li role="presentation" ng-class="{selected: atv.selected == 'mostra-de-artes'}">
+						<a href="#atividades/mostra-de-artes"><i class="fa fa-image fa-2x mar-right10"></i>Mostra de Artes</a></li> -->
 					<li role="presentation" ng-class="{selected: atv.selected == 'festival-de-jogos'}">
 						<a href="#atividades/festival-de-jogos"><i class="fa fa-gamepad fa-2x mar-right10"></i>Festival de Jogos</a></li>
 				</ul>
@@ -22,7 +22,7 @@
 		</div>
 
 		<atividade-tutoriais ng-show="{{ atv.selected == 'tutoriais' }}"></atividade-tutoriais>
-		<atividade-mostra-de-artes ng-show="{{ atv.selected == 'mostra-de-artes' }}"></atividade-mostra-de-artes>
+		<!-- <atividade-mostra-de-artes ng-show="{{ atv.selected == 'mostra-de-artes' }}"></atividade-mostra-de-artes> -->
 		<atividade-festival-de-jogos ng-show="{{ atv.selected == 'festival-de-jogos' }}"></atividade-festival-de-jogos>
 
 	</div>

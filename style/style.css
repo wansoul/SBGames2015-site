@@ -1299,3 +1299,22 @@ div.datas-importantes > ul > li{
 	font-weight: bold;
 	background-color: #C66051;
 }
+
+a.destaques-home{
+	color: #777;
+	display: block;
+	-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+			border-radius: 8px;	
+}
+a.destaques-home:hover i, a.destaques-home h4{
+	color: #000;
+}
+a.destaques-home i, a.destaques-home:hover h4{
+	color: #C66051;
+}
+
+
+
+
+
