@@ -16,7 +16,7 @@ app.config(['$routeProvider',
 				controller: 'IndexController'
 			})
 			.when('/trilhas', {
-				redirectTo: '/trilhas/arte-e-design'
+				redirectTo: '/trilhas/artes-e-design'
 			})
 			.when('/trilhas/:id', {
 				templateUrl: 'app/trilhas/trilhasTemplate.html',

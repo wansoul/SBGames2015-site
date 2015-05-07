@@ -1,11 +1,11 @@
 var app = angular.module('sbgamesApp');
 
 app
-.directive('trilhaArteEDesign', function(){
+.directive('trilhaArtesEDesign', function(){
     'use strict';
     return{
         restrict: 'E',
-        templateUrl: 'app/trilhas/subpages/arte-e-designTemplate.html'
+        templateUrl: 'app/trilhas/subpages/artes-e-designTemplate.html'
     }
 })
 .directive('trilhaComputacao', function(){
