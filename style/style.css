@@ -800,13 +800,17 @@ nav#filter a {
 }
 
 #sendmessage {
-	border:1px solid ##36A749;
-	display:none;
+	border:1px solid #36A749;
+	color: #36A749;
+	display: none;
 	text-align:center;
 	padding:15px 12px 15px;
 	margin:10px 0;
 	font-weight:600;
 	margin-bottom:30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 #sendmessage.show,.show  {

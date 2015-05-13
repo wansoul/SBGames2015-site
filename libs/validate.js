@@ -84,11 +84,16 @@ jQuery(document).ready(function($) {
 				data: str,
 				success: function(msg){
 			$("#sendmessage").addClass("show");
+			//scroll to top
+			$("html, body").animate({ scrollTop: 0 }, 500);
+			//esconder formulário
+			$("form.contactForm").css("display", "none");
+
 			$("#errormessage").ajaxComplete(function(event, request, settings){
 		
 			if(msg == 'OK')
 			{
-				$("#sendmessage").addClass("show");				
+				$("#sendmessage").addClass("show");	
 			}
 			else
 			{
