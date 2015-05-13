@@ -1322,6 +1322,21 @@ a.destaques-home i, a.destaques-home:hover h4{
 }
 
 
+#sthoverbuttons #sthoverbuttons-background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 990000;
+  height: 100%;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  background-color: #ccc;
+  box-shadow: 0 0 3px rgba(0,0,0,0.25);
+}
+
+
+
+
 
 
 
