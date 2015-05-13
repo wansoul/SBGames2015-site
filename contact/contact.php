@@ -13,7 +13,7 @@ $post = (!empty($_POST)) ? true : false;
 if($post){
 	$name = stripslashes($_POST['name']);
 	$email = trim($_POST['email']);
-	$subject =  "SBGames 2015 - contato do site - " . stripslashes($_POST['subject']);
+	$subject =  "SBGames2015 - contato do site - " . stripslashes($_POST['subject']);
 	$message = stripslashes($_POST['message']);
 
 	$error = '';
