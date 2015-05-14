@@ -1322,7 +1322,7 @@ a.destaques-home i, a.destaques-home:hover h4{
 }
 
 
-#sthoverbuttons #sthoverbuttons-background {
+#sthoverbuttons {
   position: absolute;
   top: 0;
   width: 100%;
