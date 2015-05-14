@@ -1116,6 +1116,8 @@ a.socialIcon:hover, .socialHoverClass {
 	display: none;
 }
 
+#sthoverbuttons .sthoverbuttons-label{ color: #eaeaea !important; }
+
 
 
 /* ========================================
