@@ -1094,6 +1094,30 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 
+/* Sharethis custom style */
+#sthoverbuttons .sthoverbuttons-background-r{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 990000;
+	height: 100%;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	background-color: #ccc;
+	box-shadow: 0 0 3px rgba(0,0,0,0.25);
+}
+#sthoverbuttonsMain{
+	width: 100%;
+}
+
+.sthoverbuttons-top-r,
+.sthoverbuttons-shade-r,
+.sthoverbuttons-bottom-r{
+	display: none;
+}
+
+
+
 /* ========================================
 Media queries
 ========================================= */
@@ -1124,6 +1148,9 @@ Media queries
 	}
 }
 @media (max-width: 767px) {
+
+	/* Escondendo os botões do sharethis */
+	#sthoverbuttons{ display: none; }
 
 	.navbar-collapse.in {
 		width: 100%;
@@ -1321,23 +1348,9 @@ a.destaques-home i, a.destaques-home:hover h4{
 	color: #C66051;
 }
 
-#sthoverbuttons .sthoverbuttons-background-r{
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 990000;
-	height: 100%;
-	border-bottom-left-radius: 6px;
-	border-top-left-radius: 6px;
-	background-color: #ccc;
-	box-shadow: 0 0 3px rgba(0,0,0,0.25);
-}
 
-.sthoverbuttons-top-r,
-.sthoverbuttons-shade-r,
-.sthoverbuttons-bottom-r{
-	display: none;
-}
+
+
 
 
 
