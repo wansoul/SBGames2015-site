@@ -1103,11 +1103,11 @@ a.socialIcon:hover, .socialHoverClass {
 	height: 100%;
 	border-bottom-left-radius: 6px;
 	border-top-left-radius: 6px;
-	background-color: #ccc;
+	background-color: rgba(34, 31, 31, 0.9);
 	box-shadow: 0 0 3px rgba(0,0,0,0.25);
 }
 #sthoverbuttonsMain{
-	width: 100%;
+	width: 100% !important;
 }
 
 .sthoverbuttons-top-r,
