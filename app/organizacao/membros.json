@@ -1,0 +1,60 @@
+{
+	"membros": [
+		{
+			"nome": "Alex Cataguazes",
+			"email": "email1@gmail.com",
+			"filiacao": "UTFPR",
+			"imagem": "http://gravatar.com/avatar?size=300"
+		},
+		{
+			"nome": "Alexandre Paschoal",
+			"filiacao": "UTFPR",
+			"email": "email2@gmail.com",
+			"imagem": "http://gravatar.com/avatar?size=300"
+		},
+		{
+			"nome": "André Neves",
+			"filiacao": "UFPE",
+			"email": "email1@gmail.com",
+			"imagem": "http://gravatar.com/avatar?size=300"
+		},
+		{
+			"nome": "Breno Carvalho",
+			"filiacao": "Instituição ou empresa",
+			"email": "email2@gmail.com",
+			"imagem": "http://gravatar.com/avatar/8d6f8812b02c6beb023c704bc777d1cf?size=300"
+		},
+		{
+			"nome": "Bruno Campagnolo de Paula",
+			"email": "email1@gmail.com",
+			"filiacao": "PUCPR",
+			"imagem": "http://gravatar.com/avatar/c10510e4552ac6c08c5033b95e441ee9?size=300"
+		},
+		{
+			"nome": "João Ricardo Bittencourt",
+			"filiacao": "Instituição ou empresa",
+			"email": "email2@gmail.com",
+			"imagem": "http://gravatar.com/avatar/db88c18723ea98a21e67ada62d783f9e?size=300"
+		},
+		{
+			"nome": "Marcelo Vasconcellos",
+			"filiacao": "Instituição ou empresa",
+			"email": "email1@gmail.com",
+			"imagem": "http://gravatar.com/avatar/0447bb76ed3f044507c7204ab6cd1e89?size=300"
+		},
+		{
+			"nome": "Mauricio B. G.",
+			"filiacao": "Instituição ou empresa",
+			"email": "email2@gmail.com",
+			"imagem": "http://gravatar.com/avatar/4ebf354e39375a6165a16f02a42ba61b?size=300"
+		},
+		{
+			"nome": "Luiz Gonzaga Jr",
+			"filiacao": "UNISINOS",
+			"email": "lgonzaga@unisinos.br",
+			"imagem": "img/organizacao/luiz-gonzaga-jr.jpg"
+		}
+
+
+	]
+}

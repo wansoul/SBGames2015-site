@@ -651,6 +651,8 @@ About
 	-webkit-border-radius:50%;
 		-moz-border-radius:50%;
 			border-radius:50%;	
+	width: 60%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
 }
 
 .team-detail h4 {
@@ -1134,6 +1136,7 @@ Media queries
 	.navbar-nav {
 		margin-top: 20px;
 	}
+
 }
 
 
@@ -1148,11 +1151,16 @@ Media queries
 		font-weight: normal;
 		padding: 12px 8px;
 	}
+
 }
 @media (max-width: 767px) {
 
 	/* Escondendo os botões do sharethis */
 	#sthoverbuttons{ display: none; }
+
+	.member-photo img {
+		width: 45%;
+	}
 
 	.navbar-collapse.in {
 		width: 100%;
@@ -1351,7 +1359,15 @@ a.destaques-home i, a.destaques-home:hover h4{
 }
 
 
-
+.team-member{ padding-bottom: 30px; }
+.team-detail > h4 { 
+	font-size: 100%;
+	margin-bottom: 0px; 
+}
+.team-detail > span { 
+	font-size: 80%;
+	margin-bottom: 0px; 
+}
 
 
 
