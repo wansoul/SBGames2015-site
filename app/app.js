@@ -61,6 +61,14 @@ app.config(['$routeProvider',
 					$rootScope.currentSubPage = "";
 				}
 			})
+			.when('/noticias', {
+				templateUrl: 'app/noticias/noticiasTemplate.html',
+				controller: 'NoticiasController'
+			})
+			.when('/noticias/:id', {
+				templateUrl: 'app/noticias/noticiasTemplate.html',
+				controller: 'NoticiasController'
+			})
 			.otherwise({
 				redirectTo: '/'
 			});

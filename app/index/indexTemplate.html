@@ -1,3 +1,25 @@
+
+<!-- NOTICIAS -->
+<section id="noticias-container">	
+	<div class="container">
+	    <div class="row">
+			<div class="col-md-12" ng-controller="NoticiasIndexController as n">
+				<h3 class="align-center"><a href="#noticias">Notícias</a></h3>
+				<div class="col-md-4" ng-repeat="noticia in n.noticias">
+					<a href="#noticias/{{noticia.id}}">
+						<div class="noticia">
+							<h4 class="color-white">{{noticia.titulo}}</h4>
+							<div class="noticia-img" style="background-image: url( {{noticia.imgUrl}} );"></div>
+							<p class="color-red">{{noticia.chamada}}</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="link-credito-foto" style="margin-bottom: 0px;" href="https://www.google.com.br/search?q=ponte+estaiada+teresina+piau%C3%AD&es_sm=119&tbm=isch&tbo=u&source=univ&sa=X&ei=FOpYVazwOezIsASQpIG4Bg&ved=0CB0QsAQ&biw=1279&bih=701" title="Ponte Estaiada - Teresina-PI" target="_BLANK">Ponte Estaiada - Teresina - Piauí</a>
+</section>
+
 <!-- trilas -->
 <section id="trilhas" class="section appear pad-bot30 bg-white">
 <div class="container"> 

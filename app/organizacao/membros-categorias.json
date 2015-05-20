@@ -1,0 +1,232 @@
+{
+	"organizacao": [
+		{
+			"categoria": "Coordenação Geral",
+			"membros": [
+				{
+					"nome": "Erick Passos",
+					"email": "erickpassos@gmail.com",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/19e5d4f82874d04240f552e6e2553cf2?size=300"
+				},
+				{
+					"nome": "Pedro de Alcântara dos Santos Neto",
+					"email": "pasn@ufpi.edu.br",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Comitê de Organização",
+			"membros": [
+				{
+					"nome": "Fábio Gomes",
+					"email": "fabiojlgomes@gmail.com",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Ivan Saraiva",
+					"email": "sem-email@sem.email",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Jenifer Costa",
+					"email": "jenifer@sertaogames.com",
+					"filiacao": "SEMEST - Prefeitura",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Comissão Especial de Jogos da SBC",
+			"membros": [
+				{
+					"nome": "Erick Passos",
+					"email": "erickpassos@gmail.com",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/19e5d4f82874d04240f552e6e2553cf2?size=300"
+				},
+				{
+					"nome": "Esteban Clua",
+					"email": "esteban@ic.uff.br",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/ade0e416090dc3e128138c8015e2a575?size=300"
+				},
+				{
+					"nome": "Bruno Feijo",
+					"email": "bfeijo@inf.puc-rio.br",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Luiz Gonzaga Jr",
+					"email": "lgonzaga@unisinos.br",
+					"filiacao": "UNISINOS",
+					"imagem": "img/organizacao/luiz-gonzaga-jr.jpg"
+				},
+				{
+					"nome": "Ricardo Nakamura",
+					"email": "ricardo.jogos@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/a1f81ad45ce60e479396d1c3764b8867?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Trilha de Artes e Design",
+			"membros": [
+				{
+					"nome": "André Neves",
+					"email": "alex.cataguases@hotmail.com",
+					"filiacao": "UFPE",
+					"imagem": "http://gravatar.com/avatar/38630bd39395c27a0a5f17e5a3d92592?size=300"
+				},
+				{
+					"nome": "Breno Carvalho",
+					"email": "breno25@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/8d6f8812b02c6beb023c704bc777d1cf?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Trilha de Computação",
+			"membros": [
+				{
+					"nome": "Erick Passos",
+					"email": "erickpassos@gmail.com",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/19e5d4f82874d04240f552e6e2553cf2?size=300"
+				},
+				{
+					"nome": "Andreia Formico",
+					"email": "andreia.formico@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Trilha de Cultura",
+			"membros": [
+				{
+					"nome": "Luís Carlos Petry",
+					"email": "alletsator@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Pollyana Mustaro",
+					"email": "pollyana.mustaro@mackenzie.br",
+					"filiacao": "Mackenzie",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Ruth Contreras",
+					"email": "sem-email@sem.email",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Tutoriais",
+			"membros": [
+				{
+					"nome": "Alexandre Paschoal",
+					"filiacao": "UTFPR",
+					"email": "alerpaschoal@gmail.com",
+					"imagem": "http://gravatar.com/avatar/b7d50e0e90f022e0fa52828fb113d517?size=300"
+				},
+				{
+					"nome": "Alex Cataguazes",
+					"email": "alexcataguases@hotmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/65acd173fc8a4b3ed3c1113ee25119e8?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Festival de Jogos",
+			"membros": [
+				{
+					"nome": "Bruno Campagnolo de Paula",
+					"email": "brunodepaula@gmail.com",
+					"filiacao": "PUCPR",
+					"imagem": "http://gravatar.com/avatar/c10510e4552ac6c08c5033b95e441ee9?size=300"
+				},
+				{
+					"nome": "Mauricio B. G.",
+					"email": "mbg3dmind@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/4ebf354e39375a6165a16f02a42ba61b?size=300"
+				},
+				{
+					"nome": "Josele Martins",
+					"email": "joselemartins@hotmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "André Luiz Brandão",
+					"email": "brandaoihc@gmail.com",
+					"filiacao": "Filiacao",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		}
+	]
+}
+
+
+{
+	"membros-orfaos": [					
+		
+		{
+			"nome": "André Luiz Battaiola",
+			"email": "ufpr.design.profe.albattaiola@gmail.com",
+			"filiacao": "Filiacao",
+			"imagem": "http://gravatar.com/avatar/?size=300"
+		},
+		{
+			"nome": "Flávia Garcia de Carvalho",
+			"email": "flaviacarvalho@fiocruz.br",
+			"filiacao": "Filiacao",
+			"imagem": "http://gravatar.com/avatar/?size=300"
+		},
+		{
+			"nome": "João Ricardo Bittencourt",
+			"email": "jrbitt@gmail.com",
+			"filiacao": "Filiacao",
+			"imagem": "http://gravatar.com/avatar/db88c18723ea98a21e67ada62d783f9e?size=300"
+		},
+		{
+			"nome": "Marcelo Vasconcellos",
+			"email": "marcelodevasconcellos@gmail.com",
+			"filiacao": "Icict | Fundação Oswaldo Cruz",
+			"imagem": "http://gravatar.com/avatar/0447bb76ed3f044507c7204ab6cd1e89?size=300"
+		},
+		{
+			"nome": "Roger Tavares",
+			"email": "rogertavares@gmail.com",
+			"filiacao": "Filiacao",
+			"imagem": "http://gravatar.com/avatar/a102487c5f7a35ac7985cf25e3cd651e?size=300"
+		},
+		{
+			"nome": "Soraia Musse",
+			"email": "soraia.musse@gmail.com",
+			"filiacao": "Filiacao",
+			"imagem": "http://gravatar.com/avatar/?size=300"
+		},
+		{
+			"nome": "Thiago di Freitas",
+			"email": "thiago@kokkugames.com",
+			"filiacao": "ABRAGAMES",
+			"imagem": "http://gravatar.com/avatar/f9c1045c26e4d7f1cf3783f14931cb99?size=300"
+		}
+	]
+}
+

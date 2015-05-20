@@ -1,0 +1,24 @@
+<!-- Noticias -->
+<div class="section-top-margin"></div>
+<section id="local" class="section appear clearfix" ng-controller="NoticiasController as n" >
+	<div class="container">
+		<h1>Notícias</h1>
+		<div class="row mar-bot40">
+			<div class="col-md-8">
+				<h3>{{n.noticiaSelecionada.titulo}}</h3>
+				<i>Data: {{n.noticiaSelecionada.data}}</i><br/>
+				<img src="{{n.noticiaSelecionada.imgUrl}}" style="max-width: 400px;" />
+				<p>{{n.noticiaSelecionada.texto}}</p>
+			</div>
+			<div class="col-md-4">
+				<h4>Outras Notícias</h4>
+				<ul>
+					<li ng-repeat="noticia in n.noticias | orderBy: '-data' ">
+						<a ng-if="noticia.id != n.noticiaSelecionada.id" ng-href="#/noticias/{{noticia.id}}">{{noticia.titulo}} <span style="font-size: 80%;">- {{noticia.data}}</span></a>
+						<span ng-if="noticia.id == n.noticiaSelecionada.id">{{noticia.titulo}} <span style="font-size: 80%;">- {{noticia.data}}</span></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
