@@ -6,15 +6,16 @@
 			<div class="col-md-12">
 					<h2 class="section-heading animated" data-animation="bounceInUp">Organização</h2>
 					<p>Pessoas que fazem o SBGames acontecer.</p>
-					<p>
-						<i class="fa fa-filter" style="margin-right: -24px;"></i>
-						<input type="search" ng-model="query.nome" placeholder="Filtrar" style="padding-left: 24px;">
-						</input>
-					</p>
 
 					<ul>
-						<li ng-repeat="m in org.membros | filter:query as results">
-							{{m.nome}} - {{m.filiacao}}
+						<li ng-repeat="o in org.organizacao"  class="pad-bot40">
+							<h4 class="mar-bot0">{{o.categoria}}</h4>
+							<a href="mailto:{{o.contato}}" title="Entre em contato" target="_blank">{{o.contato}}</a>
+							<ul>
+								<li ng-repeat="m in o.membros">
+									{{m.nome}}
+								</li>
+							</ul>
 						</li>
 					</ul>
 
@@ -35,9 +36,6 @@
 			</div>
 		</div>
  -->
-		<div class="animate-repeat" ng-if="!results.length">
-			<strong>Sem resultados para o filtro aplicado.</strong>
-		</div>
 
 		<div>
 	</div>

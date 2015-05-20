@@ -9,20 +9,20 @@ angular.module('sbgamesApp')
 		var deferred = $q.defer();
 
 		//json de arquivo no próprio servidor
-		$http.get('app/noticias/noticias.json')
+		/*$http.get('app/noticias/noticias.json')
 		.success(function (data) {
 			deferred.resolve(data.reverse());
-		});
+		});*/
 
 		//json de planilha do googleDrive 
-		/*$http.get('https://spreadsheets.google.com/feeds/list/1twf3evogV6eDk9tz4i6up_4VHt9RAuUbBOdZNRvRS5Y/od6/public/values?alt=json')
+		$http.get('https://spreadsheets.google.com/feeds/list/1twf3evogV6eDk9tz4i6up_4VHt9RAuUbBOdZNRvRS5Y/od6/public/values?alt=json')
 		.success(function (data) {
-			console.log("json antes da tradução: "+data.feed.entry);
+			console.log(data.feed.entry);
 			var jsonLimpo = translateJSON(data.feed.entry);
 			console.log("json depois da tradução: "+ jsonLimpo +", entry length: "+ data.feed.entry.length);
 			deferred.resolve(jsonLimpo.reverse());
-		});*/
-			
+		});
+		
 
 		this.getNoticias = function(){
 			return deferred.promise;
@@ -42,7 +42,7 @@ angular.module('sbgamesApp')
 
 				jsonLimpo.push(temp);
 				temp = {};
-				console.log("for loop "+i+": "+jsonLimpo);
+				//console.log("for loop "+i+": "+jsonLimpo);
 			};
 			return jsonLimpo;
 		}
