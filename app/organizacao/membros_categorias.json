@@ -73,7 +73,7 @@
 				{
 					"nome": "Ricardo Nakamura",
 					"email": "ricardo.jogos@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/a1f81ad45ce60e479396d1c3764b8867?size=300"
 				}
 			]
@@ -91,7 +91,7 @@
 				{
 					"nome": "Breno Carvalho",
 					"email": "breno25@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/8d6f8812b02c6beb023c704bc777d1cf?size=300"
 				}
 			]
@@ -109,19 +109,19 @@
 				{
 					"nome": "Andreia Formico",
 					"email": "andreia.formico@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar?size=300"
 				}
 			]
 		},
 		{
 			"categoria": "Trilha de Cultura",
-			"contato": "artesedesign@sbgames.org",
+			"contato": "cultura@sbgames.org",
 			"membros": [
 				{
 					"nome": "Luís Carlos Petry",
 					"email": "alletsator@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				},
 				{
@@ -133,14 +133,14 @@
 				{
 					"nome": "Ruth Contreras",
 					"email": "sem-email@sem.email",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				}
 			]
 		},
 		{
 			"categoria": "Tutoriais",
-			"contato": "artesedesign@sbgames.org",
+			"contato": "tutoriais@sbgames.org",
 			"membros": [
 				{
 					"nome": "Alexandre Paschoal",
@@ -151,14 +151,14 @@
 				{
 					"nome": "Alex Cataguazes",
 					"email": "alexcataguases@hotmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/65acd173fc8a4b3ed3c1113ee25119e8?size=300"
 				}
 			]
 		},
 		{
 			"categoria": "Festival de Jogos",
-			"contato": "artesedesign@sbgames.org",
+			"contato": "festival@sbgames.org",
 			"membros": [
 				{
 					"nome": "Bruno Campagnolo de Paula",
@@ -169,19 +169,13 @@
 				{
 					"nome": "Mauricio B. G.",
 					"email": "mbg3dmind@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/4ebf354e39375a6165a16f02a42ba61b?size=300"
-				},
-				{
-					"nome": "Josele Martins",
-					"email": "joselemartins@hotmail.com",
-					"filiacao": "Filiacao",
-					"imagem": "http://gravatar.com/avatar/?size=300"
 				},
 				{
 					"nome": "André Luiz Brandão",
 					"email": "brandaoihc@gmail.com",
-					"filiacao": "Filiacao",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				}
 			]
@@ -192,19 +186,19 @@
 		{
 			"nome": "André Luiz Battaiola",
 			"email": "ufpr.design.profe.albattaiola@gmail.com",
-			"filiacao": "Filiacao",
+			"filiacao": "UFPR",
 			"imagem": "http://gravatar.com/avatar/?size=300"
 		},
 		{
 			"nome": "Flávia Garcia de Carvalho",
 			"email": "flaviacarvalho@fiocruz.br",
-			"filiacao": "Filiacao",
-			"imagem": "http://gravatar.com/avatar/?size=300"
+			"filiacao": "Fundação Oswaldo Cruz",
+			"imagem": "http://gravatar.com/avatar/cf5ae59454c9fa5ff2a5905c5a142204?size=300"
 		},
 		{
 			"nome": "João Ricardo Bittencourt",
 			"email": "jrbitt@gmail.com",
-			"filiacao": "Filiacao",
+			"filiacao": "",
 			"imagem": "http://gravatar.com/avatar/db88c18723ea98a21e67ada62d783f9e?size=300"
 		},
 		{
@@ -216,13 +210,13 @@
 		{
 			"nome": "Roger Tavares",
 			"email": "rogertavares@gmail.com",
-			"filiacao": "Filiacao",
+			"filiacao": "",
 			"imagem": "http://gravatar.com/avatar/a102487c5f7a35ac7985cf25e3cd651e?size=300"
 		},
 		{
 			"nome": "Soraia Musse",
 			"email": "soraia.musse@gmail.com",
-			"filiacao": "Filiacao",
+			"filiacao": "",
 			"imagem": "http://gravatar.com/avatar/?size=300"
 		},
 		{

@@ -1,6 +1,7 @@
 <!-- Noticias -->
 <div class="section-top-margin"></div>
-<section id="local" class="section appear clearfix" ng-controller="NoticiasController as n" >
+<div ng-controller="NoticiasController as n">
+<section id="local" class="section appear clearfix"  >
 	<div class="container">
 		<h1>Notícias</h1>
 		<div class="row mar-bot40">
@@ -8,8 +9,11 @@
 				<h3>{{n.noticiaSelecionada.titulo}}</h3>
 				<i>Data: {{n.noticiaSelecionada.data}}</i><br/>
 				<img src="{{n.noticiaSelecionada.imgUrl}}" style="max-width: 400px;" />
+				<br/><br/>
 				<p>{{n.noticiaSelecionada.texto}}</p>
 			</div>
+		</div>
+		<!-- <div class="row mar-bot40">
 			<div class="col-md-4">
 				<h4>Outras Notícias</h4>
 				<ul>
@@ -19,6 +23,27 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
+<!-- NOTICIAS CHAMADAS-->
+<section id="noticias-container" ng-show="n.noticias.length > 1">	
+	<div class="container">
+	    <div class="row">
+			<div class="col-md-12">
+				<h3 class="align-center"><a href="#noticias">Outras Notícias</a></h3>
+				<div class="col-md-4" ng-repeat="noticia in n.noticias | orderBy: '-data' ">
+					<a href="#noticias/{{noticia.id}}">
+						<div class="noticia">
+							<h4 class="color-white">{{noticia.titulo}}</h4>
+							<div class="noticia-img" style="background-image: url( {{noticia.imgUrl}} );"></div>
+							<p class="color-red">{{noticia.chamada}}</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="link-credito-foto" style="margin-bottom: 0px;" href="https://www.google.com.br/search?q=ponte+estaiada+teresina+piau%C3%AD&es_sm=119&tbm=isch&tbo=u&source=univ&sa=X&ei=FOpYVazwOezIsASQpIG4Bg&ved=0CB0QsAQ&biw=1279&bih=701" title="Ponte Estaiada - Teresina-PI" target="_BLANK">Ponte Estaiada - Teresina - Piauí</a>
+</section>
+</div>

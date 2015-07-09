@@ -17,9 +17,9 @@ angular.module('sbgamesApp')
 		//json de planilha do googleDrive 
 		$http.get('https://spreadsheets.google.com/feeds/list/1twf3evogV6eDk9tz4i6up_4VHt9RAuUbBOdZNRvRS5Y/od6/public/values?alt=json')
 		.success(function (data) {
-			console.log(data.feed.entry);
+			// console.log(data.feed.entry);
 			var jsonLimpo = translateJSON(data.feed.entry);
-			console.log("json depois da tradução: "+ jsonLimpo +", entry length: "+ data.feed.entry.length);
+			// console.log("json depois da tradução: "+ jsonLimpo +", entry length: "+ data.feed.entry.length);
 			deferred.resolve(jsonLimpo.reverse());
 		});
 		

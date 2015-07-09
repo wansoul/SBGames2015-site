@@ -46,5 +46,37 @@
 		"imgUrl": "img/noticias/noticia01.png",
 		"texto": "Texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01",
 		"data": "16/05/15"
+	},
+	{
+		"id": "n7",
+		"titulo": "Notícia 07",
+		"chamada": "Morbi non orci euismod ante condimentum molestie. Sed a vehicula magna, interdum tempus elit. Phasellus ullamcorper aliquet malesuada. Nullam non neque turpis.",
+		"imgUrl": "img/noticias/noticia03.jpg",
+		"texto": "Texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01",
+		"data": "13/05/15"
+	},
+	{
+		"id": "n8",
+		"titulo": "Notícia 08",
+		"chamada": "Morbi non orci euismod ante condimentum molestie. Sed a vehicula magna, interdum tempus elit. Phasellus ullamcorper aliquet malesuada. Nullam non neque turpis.",
+		"imgUrl": "img/noticias/noticia03.jpg",
+		"texto": "Texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01",
+		"data": "14/05/15"
+	},
+	{
+		"id": "n9",
+		"titulo": "Notícia 09",
+		"chamada": "Morbi non orci euismod ante condimentum molestie. Sed a vehicula magna, interdum tempus elit. Phasellus ullamcorper aliquet malesuada. Nullam non neque turpis.",
+		"imgUrl": "img/noticias/noticia02.jpg",
+		"texto": "Texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01",
+		"data": "15/05/15"
+	},
+	{
+		"id": "n10",
+		"titulo": "Notícia 10",
+		"chamada": "Morbi non orci euismod ante condimentum molestie. Sed a vehicula magna, interdum tempus elit. Phasellus ullamcorper aliquet malesuada. Nullam non neque turpis.",
+		"imgUrl": "img/noticias/noticia01.png",
+		"texto": "Texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01 texto da notícia 01",
+		"data": "16/05/15"
 	}
 ]

@@ -11,7 +11,6 @@ angular.module('sbgamesApp')
 			var promise = NoticiasService.getNoticias();
 			promise.then(function(data){
 				este.noticias = data;
-				console.log(este.noticias);
 				
 				var id = $routeParams.id;
 				if(id){
@@ -21,7 +20,7 @@ angular.module('sbgamesApp')
 						}
 					}
 				} else {
-					este.noticiaSelecionada = este.noticias[este.noticias.length-1];
+					este.noticiaSelecionada = este.noticias[0];
 				}
 
 			});

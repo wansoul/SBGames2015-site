@@ -12,7 +12,6 @@ angular.module('sbgamesApp')
 				} else {
 					este.noticias = data;
 				}
-				console.log(este.noticias);
 			});
 			
 		});

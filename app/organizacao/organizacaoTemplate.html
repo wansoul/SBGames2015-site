@@ -13,7 +13,7 @@
 							<a href="mailto:{{o.contato}}" title="Entre em contato" target="_blank">{{o.contato}}</a>
 							<ul>
 								<li ng-repeat="m in o.membros">
-									{{m.nome}}
+									{{m.nome}} <span ng-show="m.filiacao"> - {{m.filiacao}} </span>
 								</li>
 							</ul>
 						</li>

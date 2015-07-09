@@ -1413,6 +1413,7 @@ div.noticia{
 	-webkit-filter: none;
 	-moz-filter: none;
 	filter: none;
+	min-height: 240px;
 }
 .noticia-img{
 	width: 100%;
@@ -1429,6 +1430,7 @@ div.noticia{
 	color: #fff;
 	padding: 10px;
 	margin: 0;
+	line-height: 30px;
 }
  .noticia > p{
 	color: #fff;
