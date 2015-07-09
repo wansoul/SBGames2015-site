@@ -1448,3 +1448,5 @@ div.noticia{
 	padding: 0px 10px;
 }
 .noticia > a:hover{ color: #fff; }
+
+.texto-tachado{ text-decoration: line-through; }
