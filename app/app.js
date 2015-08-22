@@ -69,6 +69,14 @@ app.config(['$routeProvider',
 				templateUrl: 'app/noticias/noticiasTemplate.html',
 				controller: 'NoticiasController'
 			})
+			.when('/inscricoes', {
+				templateUrl: 'app/inscricoes/inscricoesTemplate.html',
+				controller: function(UtilsService, $rootScope){ 
+					UtilsService.resetScroll(); 
+					$rootScope.currentPage = "inscricoes";
+					$rootScope.currentSubPage = "";
+				}
+			})
 			.otherwise({
 				redirectTo: '/'
 			});

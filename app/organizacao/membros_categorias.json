@@ -139,6 +139,108 @@
 			]
 		},
 		{
+			"categoria": "Trilha de Indústria",
+			"contato": "industria.sbgames@gmail.com",
+			"membros": [
+				{
+					"nome": "Claudio Dipolitto",
+					"email": "",
+					"filiacao": "FGV-RJ, Firecast",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Arthur Protásio",
+					"email": "",
+					"filiacao": "IGDA Rio, Fableware",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Luiz Ojima Sakuda",
+					"email": "",
+					"filiacao": "FEI, USP, Abragames e IGDA-SP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Alair Helena Ferreira",
+					"email": "",
+					"filiacao": "Senac-SP e USP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Trilha Acadêmica de Indústria",
+			"contato": "industria.sbgames@gmail.com",
+			"membros": [
+				{
+					"nome": "Luiz Ojima Sakuda",
+					"email": "",
+					"filiacao": "FEI, USP, Abragames e IGDA-SP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Alair Helena Ferreira",
+					"email": "",
+					"filiacao": "Senac-SP e USP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Ricardo Nakamura",
+					"email": "",
+					"filiacao": "USP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Coordenadores do Fórum Abragames/IGDA",
+			"contato": "industria.sbgames@gmail.com",
+			"membros": [
+				{
+					"nome": "Vicente Vieira",
+					"email": "",
+					"filiacao": "Abragames, Manifesto",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Arthur Protásio",
+					"email": "",
+					"filiacao": "IGDA Rio, Fableware",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Samuel Moraes de Melo",
+					"email": "",
+					"filiacao": "Sebrae-PI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Postmortem",
+			"contato": "industria.sbgames@gmail.com",
+			"membros": [
+				{
+					"nome": "Jay Santos",
+					"email": "",
+					"filiacao": "IGDA-SP, Unity",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Marcos Gonçalves",
+					"email": "",
+					"filiacao": "IGDA-SP, Free Top Games",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Marcus Linhares",
+					"email": "",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
 			"categoria": "Tutoriais",
 			"contato": "tutoriais@sbgames.org",
 			"membros": [

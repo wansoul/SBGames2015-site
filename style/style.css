@@ -1139,6 +1139,20 @@ Media queries
 
 }
 
+@media only screen and (min-width: 959px) and (max-width: 1200px) {
+
+	.navbar-nav {
+		margin-top: 15px;
+	}
+
+	.navbar-nav > li > a{
+		font-size: 12px;
+		font-weight: normal;
+		padding: 16px 8px;
+	}
+	.navbar-nav > li > button{ font-size: 12px; }
+
+}
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
@@ -1149,10 +1163,13 @@ Media queries
 	.navbar-nav > li > a{
 		font-size: 9px;
 		font-weight: normal;
-		padding: 12px 8px;
+		padding: 16px 6px;
 	}
+	.navbar-nav > li:first-child{ display: none; }
+	.navbar-nav > li > button{ font-size: 11px; }
 
 }
+
 @media (max-width: 767px) {
 
 	/* Escondendo os botões do sharethis */
@@ -1225,6 +1242,13 @@ Media queries
 
 }
 
+//corrigindo o padding do ultimo link
+.navbar-nav > li > a:last-child,
+.navbar-nav > li:last-child{
+	padding: 0;
+	margin: 0;
+}
+
 .bg-white{ background-color: #fff; }
 
 .red-bg{ background-color: #A73636; }
@@ -1272,7 +1296,7 @@ Media queries
 }
 
 .botao-inscricao{
-	color: #E8A042;
+	color: #E8A042 !important;
 	background: none;
 	border: 1px solid #E8A042;
 	margin-top: 4px;
@@ -1280,7 +1304,7 @@ Media queries
 	border-radius: 3px;
 }
 .botao-inscricao:hover, .botao-inscricao:focus{
-	color: #C66051;
+	color: #C66051 !important;
 	border: 1px solid #C66051;
 }
 
