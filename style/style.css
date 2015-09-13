@@ -1474,3 +1474,30 @@ div.noticia{
 .noticia > a:hover{ color: #fff; }
 
 .texto-tachado{ text-decoration: line-through; }
+
+/* Resultados */
+#resultado, #resultadoComputacao, #resultadoCultura, #resultadoIndustria{color: #A73636;}
+
+.more-options{ cursor: pointer;
+	background: transparent url(../img/arrow-down.svg) no-repeat left center;
+	background-size: 18px;
+	padding-left: 24px;
+
+}
+.less-options{
+	background: transparent url(../img/arrow-up.svg) no-repeat left center;
+	background-size: 18px;
+	padding-left: 24px;
+}
+
+.resultados-container{
+	padding: 18px;
+	border: 1px solid #A73636;
+	-webkit-border-radius:6px;
+		-moz-border-radius:6px;
+			border-radius:6px;	
+}
+
+div.resultados{
+	display: none;
+}

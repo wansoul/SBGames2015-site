@@ -21,4 +21,11 @@ app
         restrict: 'E',
         templateUrl: 'app/atividades/subpages/festival-de-jogosTemplate.html'
     }
+})
+.directive('tutoriaisResultados', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/atividades/subpages/resultados/tutoriais/tutoriais-resultadoTemplate.html'
+    }
 });

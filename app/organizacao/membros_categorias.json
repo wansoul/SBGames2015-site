@@ -125,14 +125,20 @@
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				},
 				{
-					"nome": "Pollyana Mustaro",
-					"email": "pollyana.mustaro@mackenzie.br",
-					"filiacao": "Mackenzie",
+					"nome": "Prof. Dr. David de Oliveira Lemes",
+					"email": "",
+					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				},
 				{
-					"nome": "Ruth Contreras",
-					"email": "sem-email@sem.email",
+					"nome": "Profª Drª Ruth Contreras",
+					"email": "",
+					"filiacao": "",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Prof. Dr. Roger Tavares",
+					"email": "",
 					"filiacao": "",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				}

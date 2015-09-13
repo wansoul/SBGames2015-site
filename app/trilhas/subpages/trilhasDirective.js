@@ -42,4 +42,39 @@ app
         restrict: 'E',
         templateUrl: 'app/trilhas/subpages/arquivosTemplate.html'
     }
+})
+.directive('copyrightFile', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/copyrightTemplate.html'
+    }
+})
+.directive('artesEDesignResultado', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/resultados/artes-e-design/artes-e-design-resultadoTemplate.html'
+    }
+})
+.directive('computacaoResultado', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/resultados/computacao/computacao-resultadoTemplate.html'
+    }
+})
+.directive('culturaResultado', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/resultados/cultura/cultura-resultadoTemplate.html'
+    }
+})
+.directive('industriaResultado', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/resultados/industria/industria-resultadoTemplate.html'
+    }
 });

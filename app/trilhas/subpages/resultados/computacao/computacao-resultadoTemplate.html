@@ -1,0 +1,57 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#resultadoComputacao").click(function(){
+		$(".resultados").slideToggle();
+		$("#resultadoComputacao").toggleClass("less-options");
+	});
+});
+</script>
+
+<div class="row mar-bot40" ng-controller="ComputacaoResultadoController as computacao">
+	<div class="col-offset-1 col-md-11 resultados-container">
+		<h4 id="resultadoComputacao" class="more-options">Trabalhos aprovados</h4>
+		<div class="resultados">
+			<br/>
+			<h4 class="red-bg color-white resultados-container">Full Papers</h4>
+
+<table class="table table-striped">
+	<thead>
+	  <tr>
+	    <th>Seq.</th>
+	    <th>Título</th>
+	    <th>Autor(es)</th>
+	  </tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="r in computacao.resultados.fullpapers">
+			<td width="6%">{{r.seq}}</td>
+			<td>{{r.title}}</td>
+			<td width="40%">{{r.authors}}</td>
+		</tr>
+	</tbody>  
+</table>
+
+
+	<h4 class="red-bg color-white resultados-container">Short Papers</h4>
+
+<table class="table table-striped">
+	<thead>
+	  <tr>
+	   <!--  <th>Paper</th> -->
+	    <th>Título</th>
+	    <th>Autor(es)</th>
+	  </tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="r in computacao.resultados.shortpapers">
+			<td width="10%">{{r.seq}}</td>
+			<td>{{r.title}}</td>
+			<td width="40%">{{r.authors}}</td>
+		</tr>
+	</tbody>  
+</table>
+
+
+		</div>
+	</div>
+</div>
