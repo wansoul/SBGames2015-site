@@ -23,7 +23,8 @@
 			</div>
 		</div>
 
-		<copyright-file></copyright-file>
+		<copyright-file ng-hide="{{ trilhas.selected == 'computacao' }}"></copyright-file>
+		<copyright-arquivo ng-show="{{ trilhas.selected == 'computacao' }}"></copyright-arquivo>
         
         <trilha-artes-e-design ng-show="{{ trilhas.selected == 'artes-e-design' }}"></trilha-artes-e-design>
         <trilha-computacao ng-show="{{ trilhas.selected == 'computacao' }}"></trilha-computacao>

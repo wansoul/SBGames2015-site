@@ -4,12 +4,17 @@ $(document).ready(function(){
 		$(".resultados").slideToggle();
 		$("#resultadoComputacao").toggleClass("less-options");
 	});
+	$("#tpcComputacao").click(function(){
+		$(".resultadosTpc").slideToggle();
+		$("#tpcComputacao").toggleClass("less-options");
+	});
+
 });
 </script>
 
 <div class="row mar-bot40" ng-controller="ComputacaoResultadoController as computacao">
 	<div class="col-offset-1 col-md-11 resultados-container">
-		<h4 id="resultadoComputacao" class="more-options">Trabalhos aprovados</h4>
+		<h4 id="resultadoComputacao" class="more-options">List of Accepted Papers (in alphabetical order)</h4>
 		<div class="resultados">
 			<br/>
 			<h4 class="red-bg color-white resultados-container">Full Papers</h4>
@@ -17,14 +22,12 @@ $(document).ready(function(){
 <table class="table table-striped">
 	<thead>
 	  <tr>
-	    <th>Seq.</th>
-	    <th>Título</th>
-	    <th>Autor(es)</th>
+	    <th>Title</th>
+	    <th>Author(s)</th>
 	  </tr>
 	</thead>
 	<tbody>
 		<tr ng-repeat="r in computacao.resultados.fullpapers">
-			<td width="6%">{{r.seq}}</td>
 			<td>{{r.title}}</td>
 			<td width="40%">{{r.authors}}</td>
 		</tr>
@@ -37,20 +40,35 @@ $(document).ready(function(){
 <table class="table table-striped">
 	<thead>
 	  <tr>
-	   <!--  <th>Paper</th> -->
-	    <th>Título</th>
-	    <th>Autor(es)</th>
+	    <th>Title</th>
+	    <th>Author(s)</th>
 	  </tr>
 	</thead>
 	<tbody>
 		<tr ng-repeat="r in computacao.resultados.shortpapers">
-			<td width="10%">{{r.seq}}</td>
 			<td>{{r.title}}</td>
 			<td width="40%">{{r.authors}}</td>
 		</tr>
 	</tbody>  
 </table>
 
+
+		</div>
+	</div>
+</div>
+
+<div class="row mar-bot40" ng-controller="ComputacaoResultadoController as computacao">
+	<div class="col-offset-1 col-md-11 resultados-container">
+		<h4 id="tpcComputacao" class="more-options">TPC MEMBERS FOR SBGAMES 2015 
+COMPUTING TRACK</h4>
+
+		<div class="resultadosTpc">
+	<br/>
+	<ul>
+		<li ng-repeat="r in computacao.resultados.tpcMembers">
+			{{r.member}}
+		</li>
+	</ul>
 
 		</div>
 	</div>

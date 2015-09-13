@@ -1257,7 +1257,7 @@ Media queries
 
 .color-transparent{ color: rgba(0,0,0,0); }
 
-.color-red { color: #C66051; }
+.color-red { color: #A73636; }
 
 .noselect {
     -webkit-touch-callout: none;
@@ -1476,7 +1476,10 @@ div.noticia{
 .texto-tachado{ text-decoration: line-through; }
 
 /* Resultados */
-#resultado, #resultadoComputacao, #resultadoCultura, #resultadoIndustria{color: #A73636;}
+#resultado, #resultadoComputacao, #resultadoCultura, #resultadoIndustria, #tpcComputacao {
+	color: #A73636;
+	margin: 0;
+}
 
 .more-options{ cursor: pointer;
 	background: transparent url(../img/arrow-down.svg) no-repeat left center;
@@ -1498,6 +1501,6 @@ div.noticia{
 			border-radius:6px;	
 }
 
-div.resultados{
+div.resultados, div.resultadosTpc{
 	display: none;
 }

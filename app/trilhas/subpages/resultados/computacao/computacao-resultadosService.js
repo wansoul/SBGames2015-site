@@ -28,9 +28,8 @@ Full Papers
 https://spreadsheets.google.com/feeds/list/1pBjeAXtycmxq3VGontuu_f1rXYCrdRBNFGACvWh95Do/od6/public/values?alt=json
 Short Papers
 https://spreadsheets.google.com/feeds/list/1W4fuZxUsW6EGzu-FmJzqKaILeLoYQqz_NrBwoCGcwuQ/od6/public/values?alt=json
-
-TUTORIAIS
-https://spreadsheets.google.com/feeds/list/1_nwLrKixbM7WoapwdMq9glAX1_tzjb1UnchLPeah0uY/od6/public/values?alt=json
+TPC member
+https://spreadsheets.google.com/feeds/list/1LHPPVt1VGy8wB8hvRn5KPjUbxyoV-ZMxnyxG9D8CisY/od6/public/values?alt=json
 
 */
 
@@ -48,7 +47,14 @@ https://spreadsheets.google.com/feeds/list/1_nwLrKixbM7WoapwdMq9glAX1_tzjb1UnchL
 		.success(function (data) {
 			// console.log(data.feed.entry);
 			resultados.shortpapers = translateJSON(data.feed.entry);
-			// console.log("json depois da tradução: "+ jsonLimpo +", entry length: "+ data.feed.entry.length);
+			deferred.resolve(resultados);
+		});
+
+		//json de planilha do googleDrive - Short Papers
+		$http.get('https://spreadsheets.google.com/feeds/list/1LHPPVt1VGy8wB8hvRn5KPjUbxyoV-ZMxnyxG9D8CisY/od6/public/values?alt=json')
+		.success(function (data) {
+			// console.log(data.feed.entry);
+			resultados.tpcMembers = translateJSON2(data.feed.entry);
 			deferred.resolve(resultados);
 		});
 		
@@ -66,6 +72,19 @@ https://spreadsheets.google.com/feeds/list/1_nwLrKixbM7WoapwdMq9glAX1_tzjb1UnchL
 				//temp.paper = data[i].gsx$paper.$t;
 				temp.title = data[i].gsx$title.$t;
 				temp.authors = data[i].gsx$authors.$t;
+
+				jsonLimpo.push(temp);
+				temp = {};
+			};
+			return jsonLimpo;
+		}
+
+		// De/para a partir de dados gerados na exportação do gDrive
+		var translateJSON2 = function(data){
+			var jsonLimpo = [];
+			var temp = {};
+			for (var i = 0; i < data.length; i++) {
+				temp.member = data[i].gsx$member.$t;
 
 				jsonLimpo.push(temp);
 				temp = {};

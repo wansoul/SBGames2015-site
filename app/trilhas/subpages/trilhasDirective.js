@@ -50,6 +50,13 @@ app
         templateUrl: 'app/trilhas/subpages/copyrightTemplate.html'
     }
 })
+.directive('copyrightArquivo', function(){
+    'use strict';
+    return{
+        restrict: 'E',
+        templateUrl: 'app/trilhas/subpages/copyright2Template.html'
+    }
+})
 .directive('artesEDesignResultado', function(){
     'use strict';
     return{
