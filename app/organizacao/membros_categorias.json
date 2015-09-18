@@ -39,6 +39,30 @@
 					"email": "jenifer@sertaogames.com",
 					"filiacao": "SEMEST - Prefeitura",
 					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Adalton Sena",
+					"email": "",
+					"filiacao": "IFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Ricardo de A. Lira Rabêlo",
+					"email": "",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "André Soares",
+					"email": "",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Kelson Aires",
+					"email": "",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
 				}
 			]
 		},
