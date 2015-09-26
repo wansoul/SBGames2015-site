@@ -13,17 +13,6 @@
 				<p>{{n.noticiaSelecionada.texto}}</p>
 			</div>
 		</div>
-		<!-- <div class="row mar-bot40">
-			<div class="col-md-4">
-				<h4>Outras Notícias</h4>
-				<ul>
-					<li ng-repeat="noticia in n.noticias | orderBy: '-data' ">
-						<a ng-if="noticia.id != n.noticiaSelecionada.id" ng-href="#/noticias/{{noticia.id}}">{{noticia.titulo}} <span style="font-size: 80%;">- {{noticia.data}}</span></a>
-						<span ng-if="noticia.id == n.noticiaSelecionada.id">{{noticia.titulo}} <span style="font-size: 80%;">- {{noticia.data}}</span></span>
-					</li>
-				</ul>
-			</div>
-		</div> -->
 	</div>
 </section>
 <!-- NOTICIAS CHAMADAS-->
@@ -32,7 +21,7 @@
 	    <div class="row">
 			<div class="col-md-12">
 				<h3 class="align-center"><a href="#noticias">Outras Notícias</a></h3>
-				<div class="col-md-4" ng-repeat="noticia in n.noticias | orderBy: '-data' ">
+				<div class="col-md-4" ng-repeat="noticia in n.noticias">
 					<a href="#noticias/{{noticia.id}}">
 						<div class="noticia">
 							<h4 class="color-white">{{noticia.titulo}}</h4>
