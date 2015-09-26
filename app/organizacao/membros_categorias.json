@@ -311,6 +311,18 @@
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				}
 			]
+		},
+		{
+			"categoria": "Mostra de Artes",
+			"contato": "rodrigo@kaipora.com",
+			"membros": [
+				{
+					"nome": "Rodrigo Motta",
+					"email": "rodrigo@kaipora.com",
+					"filiacao": "FACISA/UFCG",
+					"imagem": "http://gravatar.com/avatar/c10510e4552ac6c08c5033b95e441ee9?size=300"
+				}
+			]
 		}
 	]
 	,
