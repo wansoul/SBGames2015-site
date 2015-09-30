@@ -1476,7 +1476,7 @@ div.noticia{
 .texto-tachado{ text-decoration: line-through; }
 
 /* Resultados */
-#resultado, #resultadoComputacao, #resultadoCultura, #resultadoIndustria, #tpcComputacao {
+#resultado, #resultadoComputacao, #resultadoCultura, #resultadoIndustria, #tpcComputacao, #resultadoTutoriais, #resultadoFestival-de-jogos {
 	color: #A73636;
 	margin: 0;
 }

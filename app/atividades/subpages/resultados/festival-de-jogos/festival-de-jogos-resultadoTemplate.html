@@ -1,0 +1,47 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#resultadoFestival-de-jogos").click(function(){
+		$(".resultados").slideToggle();
+		$("#resultadoFestival-de-jogos").toggleClass("less-options");
+	});
+});
+</script>
+
+<div class="row mar-bot40" ng-controller="FestivalDeJogosResultadoController as festival">
+	<div class="col-offset-1 col-md-11 resultados-container">
+		<h4 id="resultadoFestival-de-jogos" class="more-options">Jogos Finalistas</h4>
+		<div class="resultados">
+			<br/>
+			<!-- <h4 class="red-bg color-white resultados-container">Lista de Jogos</h4> -->
+
+<table class="table table-striped">
+	<thead>
+	  <tr>
+	    <th>Seq.</th>
+	    <th>Título</th>
+	    <th>Categoria</th>
+	    <th>Empresa</th>
+	  </tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="r in festival.resultados">
+			<td width="5%">{{r.seq}}</td>
+			<td>
+				<a ng-show="{{ r.linkLoja != '' }}" href="{{r.linkLoja}}" title="Veja o site do jogo" target="_BLANK">
+					{{r.titulo}}
+				</a>
+				<span ng-hide="{{ r.linkLoja != '' }}">{{r.titulo}}</span>
+			</td>
+			<td>{{r.categoria}}</td>
+			<td width="30%">
+				<a href="{{r.siteEmpresa}}" title="Acesse o site da empresa" target="_BLANK">
+					{{r.empresa}}
+				</a>
+			</td>
+		</tr>
+	</tbody>  
+</table>
+
+		</div>
+	</div>
+</div>

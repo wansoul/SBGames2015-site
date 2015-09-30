@@ -1,15 +1,15 @@
 <script type="text/javascript">
 $(document).ready(function(){
-	$("#resultadoComputacao").click(function(){
+	$("#resultadoTutoriais").click(function(){
 		$(".resultados").slideToggle();
-		$("#resultadoComputacao").toggleClass("less-options");
+		$("#resultadoTutoriais").toggleClass("less-options");
 	});
 });
 </script>
 
 <div class="row mar-bot40" ng-controller="TutoriaisResultadoController as tutoriais">
 	<div class="col-offset-1 col-md-11 resultados-container">
-		<h4 id="resultadoComputacao" class="more-options">Trabalhos aprovados</h4>
+		<h4 id="resultadoTutoriais" class="more-options">Trabalhos aprovados</h4>
 		<div class="resultados">
 			<br/>
 			<h4 class="red-bg color-white resultados-container">Tutoriais</h4>
