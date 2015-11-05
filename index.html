@@ -99,7 +99,7 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav mar-top10" >
-							<li ng-class="{active: currentPage == 'inicio'}"><a href="#inicio">Início</a></li>
+						<!-- 	<li ng-class="{active: currentPage == 'inicio'}"><a href="#inicio">Início</a></li> -->
 							<li class="dropdown" ng-class="{active: currentPage == 'trilhas'}">
 					          <a class="dropdown-toggle" data-toggle="dropdown" role="link" aria-expanded="false">Trilhas<span class="caret"></span></a>
 					          <ul class="dropdown-menu" role="menu">
@@ -121,8 +121,9 @@
 					          </ul>
 					        </li>
 
+							<li ng-class="{active: currentPage == 'programacao'}"><a href="#programacao">programação</a></li>
 							<li ng-class="{active: currentPage == 'submissoes'}"><a href="#submissoes">Submissões</a></li>
-							<li ng-class="{active: currentPage == 'noticias'}"><a href="#noticias">Notícias</a></li>
+							<!-- <li ng-class="{active: currentPage == 'noticias'}"><a href="#noticias">Notícias</a></li> -->
 							<li ng-class="{active: currentPage == 'organizacao'}"><a href="#organizacao">Organização</a></li>
 							<li ng-class="{active: currentPage == 'local'}"><a href="#local">Local</a></li>
 							<li ng-class="{active: currentPage == 'contato'}"><a href="#contato">Contato</a></li>
@@ -157,46 +158,86 @@
 		<section id="patrocinio" class="section clearfix bg-white">
 			<div class="container">
 				<div class="row mar-bot40">
-					<div class="col-sm-4">
+					
+					<div class="col-sm-6">
 						
-						<div class="col-md-6">
 							<h4 class="section-heading animated" data-animation="bounceInUp">Patrocínio</h4>
+
+						<div class="col-md-12">
 							<a href="https://unity3d.com/" title="Unity - Game Engine" target="_BLANK">
-								<figure class="logotipo"><img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/Unity-logo.png" alt="Unity - Game Engine" /></figure>
+								<figure class="logotipo"><img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/Unity-logo.png" alt="Unity - Game Engine" /></figure>
 							</a>
-						</div>
-						
-						<div class="col-md-6">
-							<h4 class="section-heading animated" data-animation="bounceInUp">Apoio</h4>
+							<a href="https://www.unrealengine.com" title="Unreal Engine" target="_BLANK">
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/unreal-logo.png" alt="Unreal Engine" />
+								</figure>
+							</a>
+							<a href="https://www.google.com" title="Google" target="_BLANK">
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/google-logo.png" alt="Google" />
+								</figure>
+							</a>
+							<a href="http://www.sebrae.com.br/sites/PortalSebrae/ufs/pi?codUf=19" title="SEBRAE" target="_BLANK">
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/sebrae-logo.png" alt="SEBRAE" />
+								</figure>
+							</a>
 							<a href="http://www.teresina.pi.gov.br/" title="Prefeitura de Teresina" target="_BLANK">
-								<figure class="logotipo"><img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/Prefeitura-de-Teresina-Brasao.png" alt="Prefeitura de Teresina" /></figure>
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/prefeitura-logo.png" alt="Prefeitura de Teresina" />
+								</figure>
 							</a>
-							<a href="http://uninovafapi.edu.br/" title="Prefeitura de Teresina" target="_BLANK">
-								<figure class="logotipo"><img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/uninovafapi.png" alt="Uni Novafapi" /></figure>
+							<a href="http://uninovafapi.edu.br/" title="UNINOVAFAPI - Centro Universitário" target="_BLANK">
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/uninovafapi-logo.png" alt="UNINOVAFAPI - Centro Universitário" />
+								</figure>
+							</a>
+							<a href="http://www.fapepi.pi.gov.br/" title="FAPEPI - Fundação de Amparo à Pesquisa do estado do Piauí" target="_BLANK">
+								<figure class="logotipo">
+									<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/patrocinio/fapepi-logo.png" alt="FAPEPI - Fundação de Amparo à Pesquisa do estado do Piauí" />
+								</figure>
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-4">
+
+					<div class="col-sm-2 left-separator">
+						<h4 class="section-heading animated" data-animation="bounceInUp">Apoio</h4>
+						<div class="col-md-12">
+						<a href="" title="Instituto Delta" target="_BLANK">
+							<figure class="logotipo">
+								<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/apoio/institutoDelta.png" alt="Instituto Delta" />
+							</figure>
+						</a>
+					<!-- 	<a href="" title="mConference" target="_BLANK">
+							<figure class="logotipo">
+								<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/apoio/mConference-logo.png" alt="mConference" />
+							</figure>
+						</a> -->
+						</div>
+					</div>
+
+
+					<div class="col-sm-2 left-separator">
 						<h4 class="section-heading animated" data-animation="bounceInUp">Promoção</h4>
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<a href="http://www.sbc.org.br/" title="Sociedade Brasileira de Computação" target="_BLANK">
 								<figure class="logotipo"><img src="img/parceiros/promocao/sbc.png" alt="SBC" /></figure>
 							</a>
-						</div>
-						<div class="col-md-6">
+						
 							<a href="https://www.facebook.com/abragames" title="ABRAGAMES" target="_BLANK">
 								<figure class="logotipo"><img src="img/parceiros/promocao/abragames.png" alt="ABRAGAMES" /></figure>
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-4">
+
+
+					<div class="col-sm-2 left-separator">
 						<h4 class="section-heading animated" data-animation="bounceInUp">Realização</h4>
-						<div class="col-md-6">
+						<div class="col-md-12">
 							<a href="http://www5.ifpi.edu.br/" title="Instituto Federal de Educação Tecnológica do Piauí" target="_BLANK">
 								<figure class="logotipo"><img src="img/parceiros/realizacao/ifpi.png" alt="IFPI" /></figure>
 							</a>
-						</div>
-						<div class="col-md-6">
+						
 							<a href="http://www.ufpi.br/" title="Universidade Federal do Piauí" target="_BLANK">
 								<figure class="logotipo"><img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/ufpi-brasao.jpg" alt="UFPI" /></figure>
 							</a>
@@ -249,6 +290,9 @@
 							<strong>Local:</strong> <a href="#local" title="Veja onde será o SBGames 2015">Blue Tree Towers Rio Poty</a> <br/>
 							<strong>Endereço:</strong> Av. Mal. Castelo Branco, 555 - Ilhotas, Teresina - PI, 64014-058 <br/>
 							<strong>Contato:</strong> <a href="#contato" title="Entre em contato com a organização do SBGames 2015">contato@sbgames.org</a>
+						</p>
+						<p>
+							<strong>Mídia: </strong><a href="#logopack" title="Baixar o logotipo do SBGames">Logotipo do SBGames 2015</a>
 						</p>
 					</div>
 				</div>
@@ -303,7 +347,6 @@
 
         <script src="app/atividades/subpages/resultados/festival-de-jogos/festival-de-jogos-resultadosService.js"></script>
         <script src="app/atividades/subpages/resultados/festival-de-jogos/festival-de-jogosResultadoController.js"></script>
-
 
 
 		<!-- SHARETHIS LIBS -->

@@ -9,10 +9,13 @@ angular.module('sbgamesApp')
 
 
 /*
-Link feed de resultados 
+Link feed de RESULTADOS 
 
 FESTIVAL DE JOGOS
 https://spreadsheets.google.com/feeds/list/1VywTqFAm-PnIX8nCvofFkwY99NWjDzdzxoI9PMaA3Go/od6/public/values?alt=json
+
+FINALISTAS
+https://spreadsheets.google.com/feeds/list/1EDTYIBNGef2MjlBnuMe6AARjSXSUDXlFmv0j0ZizeGQ/od6/public/values?alt=json
 
 */
 

@@ -61,6 +61,14 @@ app.config(['$routeProvider',
 					$rootScope.currentSubPage = "";
 				}
 			})
+			.when('/programacao', {
+				templateUrl: 'app/programacao/programacaoTemplate.html',
+				controller: function(UtilsService, $rootScope){ 
+					UtilsService.resetScroll(); 
+					$rootScope.currentPage = "programacao";
+					$rootScope.currentSubPage = "";
+				}
+			})
 			.when('/noticias', {
 				templateUrl: 'app/noticias/noticiasTemplate.html',
 				controller: 'NoticiasController'
@@ -74,6 +82,14 @@ app.config(['$routeProvider',
 				controller: function(UtilsService, $rootScope){ 
 					UtilsService.resetScroll(); 
 					$rootScope.currentPage = "inscricoes";
+					$rootScope.currentSubPage = "";
+				}
+			})
+			.when('/logopack', {
+				templateUrl: 'app/logo-pack/logoPackTemplate.html',
+				controller: function(UtilsService, $rootScope){ 
+					UtilsService.resetScroll(); 
+					$rootScope.currentPage = "logopack";
 					$rootScope.currentSubPage = "";
 				}
 			})

@@ -14,6 +14,87 @@ $(document).ready(function(){
 			<br/>
 			<!-- <h4 class="red-bg color-white resultados-container">Lista de Jogos</h4> -->
 
+<p>Os jogos listados abaixo estão organizados por categoria, ordenados alfabeticamente (sem relação com as notas de avaliação).</p>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor game design (finalistas)</h4>
+<ul>
+<li>Atomic Rocket Arena - iOS</li>
+<li>Bad Blocks - Android</li>
+<li>Chroma Squad - PC</li>
+<li>Origami Flight - PC</li>
+<li>Warlock's Tower - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor som (finalistas)</h4>
+<ul>
+<li>Chroma Squad - PC</li>
+<li>I am Hexagon - iOS</li>
+<li>Möira - PC</li>
+<li>Origami Flight - PC</li>
+<li>Trajes Fatais – Edição Minimal - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor tecnologia (finalistas)</h4>
+<ul>
+<li>Alfabeto 3D - iOS</li>
+<li>Chroma Squad - PC</li>
+<li>Gryphon Knight Epic - PC</li>
+<li>NoteScor - Web/HTML5</li>
+<li>Relic Hunters Zero - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor arte visual (finalistas)</h4>
+<ul>
+<li>Chroma Squad - PC</li>
+<li>Gryphon Knight Epic - PC</li>
+<li>Möira - PC</li>
+<li>Origami Flight - PC</li>
+<li>RacketBoy - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor jogo feito por estudante (finalistas)</h4>
+<ul>
+<li>Asteroid Squad - Android</li>
+<li>Ninja Sukafu 2 - Enhanced Edition - PC</li>
+<li>Recollection - PC</li>
+<li>The Last NightMary, A Lenda do Cabeça de Cuia - PC</li>
+<li>Wells - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria melhor Serious Game (finalista)</h4>
+<ul>
+<li>A Pequena Grande Crise 3: A Queda do Gigante - PC</li>
+<li>Carcará - Asas da Justiça - PC</li>
+<li>NoteScor - Web/HTML5</li>
+<li>Sr.X - iOS</li>
+<li>Wyz - iOS</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria principal (finalistas - melhor jogo)</h4>
+<ul>
+<li>Chroma Squad - PC</li>
+<li>Gryphon Knight Epic - PC</li>
+<li>Origami Flight - PC</li>
+<li>RacketBoy - PC</li>
+<li>Warlock's Tower - PC</li>
+</ul>
+
+<h4 class="color-red mar-bot10 mar-top30">Categoria jogos em produção (finalistas)</h4>
+<ul>
+<li>Möira - PC</li>
+<li>Origami Flight - PC</li>
+<li>Pizza Mania - Android</li>
+<li>RacketBoy - PC</li>
+<li>Warlock's Tower - PC</li>
+</ul>
+
+
+<p>
+	<strong>PS.:</strong> A categoria Advergames só obteve duas inscrições, e conforme o regulamento, foi eliminada do festival esse ano.</p>
+<p>
+	<strong>PS2.:</strong> Todos os jogos da categoria Outras Plataformas estão convidados a fazer parte da mostra, uma vez que a avaliação dessa categoria será feita durante o evento.</p>
+
+<!-- 
 <table class="table table-striped">
 	<thead>
 	  <tr>
@@ -34,14 +115,15 @@ $(document).ready(function(){
 			</td>
 			<td>{{r.categoria}}</td>
 			<td width="30%">
-				<a href="{{r.siteEmpresa}}" title="Acesse o site da empresa" target="_BLANK">
+				<a ng-show="{{ r.siteEmpresa != '' }}" href="{{r.siteEmpresa}}" title="Acesse o site da empresa" target="_BLANK">
 					{{r.empresa}}
 				</a>
+				<span ng-hide="{{ r.empresa != '' }}">{{r.titulo}}</span>
 			</td>
 		</tr>
 	</tbody>  
 </table>
-
+ -->
 		</div>
 	</div>
 </div>
