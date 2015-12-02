@@ -14,8 +14,10 @@
 		<meta name="author" content="SBGames">
 		<meta name="keywords" content="SBGames 2015, Simposio Brasileiro de Jogos e Entretenimento Digital, Comissão Especial de Jogos e Entretenimento Digital, Sociedade Brasileira de Computação, jogos, games, desenvolvimento de jogos, artes e design, artigos computacao, jogos e cultura, computação gráfica, brasil">
 		<meta name="rating" content="general">
-		<meta name="robots" content="noindex, nofollow">
+		<meta name="robots" content="index, follow">
 
+		<!-- Para ProjViewer -->
+		<meta name="mobile-web-app-capable" content="yes">
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="SBGames 2015 - de 11 a 13 de novembro em Teresina - PI">
@@ -121,13 +123,15 @@
 					          </ul>
 					        </li>
 
-							<li ng-class="{active: currentPage == 'programacao'}"><a href="#programacao">programação</a></li>
+							<!-- <li ng-class="{active: currentPage == 'programacao'}"><a href="#programacao">Programação</a></li> -->
+							<li ng-class="{active: currentPage == 'anais'}"><a href="#anais">Anais</a></li>
 							<li ng-class="{active: currentPage == 'submissoes'}"><a href="#submissoes">Submissões</a></li>
 							<!-- <li ng-class="{active: currentPage == 'noticias'}"><a href="#noticias">Notícias</a></li> -->
 							<li ng-class="{active: currentPage == 'organizacao'}"><a href="#organizacao">Organização</a></li>
 							<li ng-class="{active: currentPage == 'local'}"><a href="#local">Local</a></li>
 							<li ng-class="{active: currentPage == 'contato'}"><a href="#contato">Contato</a></li>
-							<li ng-class="{active: currentPage == 'inscricoes'}"><p><a type="button" href="#inscricoes" class="btn botao-inscricao navbar-btn" title="Informações sobre as inscrições">Inscrições</a></p></li>
+							<li ng-class="{active: currentPage == 'certificado'}"><p><a type="button" href="certificados" class="btn botao-inscricao navbar-btn" title="Receba o seu certificado">Certificado</a></p></li>
+							<!-- <li ng-class="{active: currentPage == 'inscricoes'}"><p><a type="button" href="#inscricoes" class="btn botao-inscricao navbar-btn" title="Informações sobre as inscrições">Inscrições</a></p></li> -->
 						</ul>
 					</div><!--/.navbar-collapse -->
 				</div>
@@ -208,11 +212,16 @@
 								<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/apoio/institutoDelta.png" alt="Instituto Delta" />
 							</figure>
 						</a>
-					<!-- 	<a href="" title="mConference" target="_BLANK">
+						<a href="http://www.infoway-br.com/" title="Infoway" target="_BLANK">
+							<figure class="logotipo">
+								<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/apoio/Infoway-logo.png" alt="Infoway" />
+							</figure>
+						</a>
+						<a href="https://www.mconference.com.br/" title="mConference" target="_BLANK">
 							<figure class="logotipo">
 								<img src="https://dl.dropboxusercontent.com/u/9451043/SBGames-templates/imgs/apoio/mConference-logo.png" alt="mConference" />
 							</figure>
-						</a> -->
+						</a>
 						</div>
 					</div>
 
@@ -301,7 +310,7 @@
 
 		<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
-		<!-- LIBs de terceiros-->
+		<!-- LIBs de terceiros -->
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script src="libs/jquery.js"></script>
 		<script src="libs/bootstrap.js"></script>
@@ -316,6 +325,7 @@
 
 		<!-- JSs -->
 		<script src="js/main.js"></script>
+
 
 	    <!-- APP -->
 	    <script src="app/app.js"></script>
@@ -347,6 +357,14 @@
 
         <script src="app/atividades/subpages/resultados/festival-de-jogos/festival-de-jogos-resultadosService.js"></script>
         <script src="app/atividades/subpages/resultados/festival-de-jogos/festival-de-jogosResultadoController.js"></script>
+
+        <script src="app/anais/anaisService.js"></script>
+        <script src="app/anais/anaisController.js"></script>
+
+
+        <!-- ProjViewer -->
+		<script src="js/projViewer/libs/svg-pan-zoom.js"></script>
+		<script src="js/projViewer/libs/hammer.js"></script>
 
 
 		<!-- SHARETHIS LIBS -->

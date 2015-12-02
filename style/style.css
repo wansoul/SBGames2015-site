@@ -1521,3 +1521,13 @@ figure.logotipo{
 .left-separator{
 	border-left: 1px solid #ccc;
 }
+
+iframe.programacao #top-bar {display: none !important;}
+
+.en{
+	display: none;
+}
+
+#changeLang{
+	float: right;
+}

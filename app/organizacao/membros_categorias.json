@@ -43,7 +43,7 @@
 				{
 					"nome": "Adalton Sena",
 					"email": "",
-					"filiacao": "IFPI",
+					"filiacao": "IFPI / Infoway",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				},
 				{
@@ -60,6 +60,24 @@
 				},
 				{
 					"nome": "Kelson Aires",
+					"email": "",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Ney Paranaguá",
+					"email": "",
+					"filiacao": "IFPI / Infoway",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Raimundo Moura",
+					"email": "",
+					"filiacao": "UFPI",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Vinicius Machado",
 					"email": "",
 					"filiacao": "UFPI",
 					"imagem": "http://gravatar.com/avatar/?size=300"
@@ -125,15 +143,9 @@
 			"contato": "computacao@sbgames.org",
 			"membros": [
 				{
-					"nome": "Erick Passos",
-					"email": "erickpassos@gmail.com",
-					"filiacao": "IFPI",
-					"imagem": "http://gravatar.com/avatar/19e5d4f82874d04240f552e6e2553cf2?size=300"
-				},
-				{
 					"nome": "Andreia Formico",
 					"email": "andreia.formico@gmail.com",
-					"filiacao": "",
+					"filiacao": "Unifor",
 					"imagem": "http://gravatar.com/avatar?size=300"
 				}
 			]
@@ -194,6 +206,18 @@
 					"nome": "Alair Helena Ferreira",
 					"email": "",
 					"filiacao": "Senac-SP e USP",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Pedro Alexandre Cabral",
+					"email": "",
+					"filiacao": "Infoway",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				},
+				{
+					"nome": "Samuel Moraes de Melo",
+					"email": "",
+					"filiacao": "SEBRAE - PI",
 					"imagem": "http://gravatar.com/avatar/?size=300"
 				}
 			]
@@ -321,6 +345,30 @@
 					"email": "rodrigo@kaipora.com",
 					"filiacao": "FACISA/UFCG",
 					"imagem": "http://gravatar.com/avatar/c10510e4552ac6c08c5033b95e441ee9?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Criação do logotipo do Evento",
+			"contato": "angela@infoway-pi.com.br",
+			"membros": [
+				{
+					"nome": "Angela Cunha",
+					"email": "",
+					"filiacao": "Infoway",
+					"imagem": "http://gravatar.com/avatar/?size=300"
+				}
+			]
+		},
+		{
+			"categoria": "Design - Site e material gráfico do evento",
+			"contato": "wan@sertaogames.com",
+			"membros": [
+				{
+					"nome": "Wan Souza",
+					"email": "wan@sertaogames.com",
+					"filiacao": "Sertão Games",
+					"imagem": "http://gravatar.com/avatar/cd4e4284ca9dd33c03e901725648c92b?size=300"
 				}
 			]
 		}

@@ -93,6 +93,22 @@ app.config(['$routeProvider',
 					$rootScope.currentSubPage = "";
 				}
 			})
+			.when('/planta', {
+				templateUrl: 'app/programacao/plantaTemplate.html',
+				controller: function(UtilsService, $rootScope){ 
+					UtilsService.resetScroll(); 
+					$rootScope.currentPage = "planta";
+					$rootScope.currentSubPage = "";
+				}
+			})
+			.when('/anais', {
+				templateUrl: 'app/anais/anaisTemplate.html',
+				controller: function(UtilsService, $rootScope){ 
+					UtilsService.resetScroll(); 
+					$rootScope.currentPage = "anais";
+					$rootScope.currentSubPage = "";
+				}
+			})
 			.otherwise({
 				redirectTo: '/'
 			});

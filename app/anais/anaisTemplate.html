@@ -1,0 +1,165 @@
+<!-- Anais -->
+<div class="section-top-margin"></div>
+<section id="anais" class="section appear clearfix sectionTopMargin">
+	<div class="container" ng-controller="AnaisController as anais">
+		<div class="row mar-bot40">
+			<div class="col-md-12">
+					<h2 class="section-heading animated" data-animation="bounceInUp">Anais</h2>
+			</div>
+		</div>
+
+		<div class="row mar-bot40">
+			<div class="col-md-12">
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Artes & Design</a></li>
+		<li><a href="#tabs-2">Computação</a></li>
+		<li><a href="#tabs-3">Cultura</a></li>
+		<li><a href="#tabs-4">Indústria</a></li>
+		<!-- <a id="chandeLang">Change Language</a> -->
+	</ul>
+
+<!-- ARTES E DESIGN -->
+<div id="tabs-1">
+		<h3 class="color-red mar-top20">Artes & Design</h3>
+<div class="pt-br">
+	<p>
+	Em 2006 tivemos a oportunidade de coordenar a trilha de Arte e Design do SBGames em Recife. Desde então, acompanhamos o desenvolvimento do evento e este ano tivemos o prazer de participar da edição 2015 em Teresina, Piauí.</p>
+
+	<p>No evento deste ano percebeu-se a evolução das pesquisas apresentadas na Trilha de Arte e Design, nos tópicos de game design, uso e desenvolvimento de metodologias de design, arte conceitual e narrativas, consagrando a importância do fazer ciência no processo de criação ou estudo dos jogos digitais e analógicos. Se o número de submissões diminuiu um pouco em relacão ao ano de 2014, a qualidade dos trabalhos submetidos cresceu e foi um dos pontos fortes desta XIV edição. A Trilha recebeu um total de 107 artigos, dos quais 75 foram da categoria Artigo completo (Full Paper) e 32 na categoria Artigo Resumido (Short Papers). A avaliação dos trabalhos resultou na aprovação de 44 Artigos completos (29% do total de submissões).</p>
+
+	<p>Em relação aos Artigos Resumidos, 22% das pesquisas submetidas foram aprovadas, totalizando 14 trabalhos. Sobre os temas mais explorados na Trilha de Arte e Design, 40 trabalhos tiveram como foco o Game Design e as mecânicas de jogos, seguido de estudos sobre processos/métodos, além de análise de jogos com foco em gênero. Queremos também destacar os estudos voltados à Arte e à Narrativa, assim como pesquisas sobre interface. Este tópico teve 15 artigos aprovados. Por fim, os participantes da trilha conquistaram dois Best Papers, nas categorias Full e Short Paper. O melhor Artigo Completo será encaminhado para o Journal of Entertainment Computing.</p>
+
+	<p>Todos os trabalhos foram avaliados por um comitê da Trilha de Arte & Design, com participação de  pesquisadores de importantes e renomadas instituições brasileiras e estrangeiras, em especial Portugal.</p>
+
+	<p>Queremos agradecer e parabenizar a todos os autores que submeteram suas pesquisas, compartilhando seus resultados para o enriquecimento da área de jogos como caráter científico, além dos pesquisadores iniciantes que participaram da trilha de Arte & Design em Teresina. Pedimos desculpas por qualquer transtorno no processo de avaliação e publicação dos artigos.</p>
+
+	<p>Desejamos sucesso a todos que fizeram parte da Trilha de Arte & Design, e esperamos que as pesquisas neste campo possam ajudar a futuros trabalhos acadêmicos e profissionais, fomentando o entretenimento digital em nosso país.</p>
+	<p>
+	<strong>Breno José Andrade de Carvalho (UNICAP)</strong><br/>
+	<strong>André Menezes Marques das Neves (UFPE)</strong><br/>
+	Coordenadores da Trilha de Arte & Design, 2015		
+	</p>
+</div>
+
+<div class="en">
+	<p>Queremos agradecer e parabenizar a todos os autores que submeteram suas pesquisas, compartilhando seus resultados para o enriquecimento da área de jogos como caráter científico, além dos pesquisadores iniciantes que participaram da trilha de Arte & Design em Teresina. Pedimos desculpas por qualquer transtorno no processo de avaliação e publicação dos artigos.</p>
+
+	<p>Desejamos sucesso a todos que fizeram parte da Trilha de Arte & Design, e esperamos que as pesquisas neste campo possam ajudar a futuros trabalhos acadêmicos e profissionais, fomentando o entretenimento digital em nosso país.</p>
+</div>
+
+		<h4 class="mar-top40 red-bg color-white resultados-container">Artes & Design - Full Papers</h4>
+		<ul ng-repeat="paper in anais.artesedesignFull">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+
+		<h4 class="mar-top40 red-bg color-white resultados-container">Artes & Design - Short Papers</h4>
+		<ul ng-repeat="paper in anais.artesedesignShort">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+</div>
+
+
+<!-- COMPUTACAO -->
+<div id="tabs-2">
+		<h4 class="mar-top40 red-bg color-white resultados-container">Computação - Full Papers</h4>
+
+
+
+		<ul ng-repeat="paper in anais.computacaoFull">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+
+		<h4 class="mar-top40 red-bg color-white resultados-container">Computação - Short Papers</h4>
+		<ul ng-repeat="paper in anais.computacaoShort">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+</div>
+
+
+<!-- CULTURA-->
+<div id="tabs-3">
+		<h4 class="mar-top40 red-bg color-white resultados-container">Cultura - Full Papers</h4>
+		<ul ng-repeat="paper in anais.culturaFull">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+
+		<h4 class="mar-top40 red-bg color-white resultados-container">Cultura - Short Papers</h4>
+		<ul ng-repeat="paper in anais.culturaShort">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+</div>
+
+<!-- INDUSTRIA -->
+<div id="tabs-4">
+		<h4 class="mar-top40 red-bg color-white resultados-container">Indústria - Full Papers</h4>
+		<ul ng-repeat="paper in anais.industriaFull">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+
+		<h4 class="mar-top40 red-bg color-white resultados-container">Indústria - Short Papers</h4>
+		<ul ng-repeat="paper in anais.industriaShort">
+			<li>
+				<a href="anaispdf/{{paper.categoria}}/{{paper.id}}.pdf" target="_BLANK">
+					{{paper.titulo}}
+				</a>
+			</li>
+		</ul>
+</div>
+
+</div>
+
+
+			</div>
+		</div>
+
+
+<script src="libs/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+<script>
+	$( "#tabs" ).tabs();
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+
+<link href="libs/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+
+	</div>
+</section>
