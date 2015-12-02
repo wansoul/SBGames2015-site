@@ -1530,4 +1530,15 @@ iframe.programacao #top-bar {display: none !important;}
 
 #changeLang{
 	float: right;
+	width: 60px; height: 40px;
+	overflow: hidden;
+	text-indent: -1000px;
+	cursor: pointer;
+	margin-top: -60px;
+}
+.en-flag{
+	background: transparent url(../img/language/en.png) no-repeat center center;
+}
+.pt-br-flag{
+	background: transparent url(../img/language/pt-br.png) no-repeat center center;
 }
