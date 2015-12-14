@@ -47,6 +47,12 @@ angular.module('sbgamesApp')
 						return el; 
 				});
 
+				/* TUTORIAIS */
+				anais.tutoriais = $.map(data, function(el) { 
+					if(el.categoria == "tutoriais")
+						return el; 
+				});
+
 
 
 			});
